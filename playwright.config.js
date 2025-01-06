@@ -64,7 +64,7 @@ export default defineConfig({
 
   /* Configure projects for major browsers */
   projects: [
-    {
+   /* {
       name: 'chromium',           //--project='chromium'
       use: { ...devices['Desktop Chrome'] },
     },
@@ -73,7 +73,7 @@ export default defineConfig({
     {
       name: 'Edge',   //--project='Edge'
       use: { ...devices['Desktop Edge'], channel: 'msedge', },
-    },
+    },*/
     {
       name: 'Chrome',    //--project='Chrome'
       use: { ...devices['Desktop Chrome'], channel: 'chrome' },
